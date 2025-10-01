@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hanzala-Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#">Hanzala</a>
+        <nav class="nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-inner">
+          <div class="hero-content">
+            <h1>Hi, I'm <span class="accent">Hanzala</span></h1>
+            <p class="lead">
+              A beginner frontend developer — I build clean, responsive websites
+              using HTML & CSS. I also enjoy programming in Java and Python and
+              love problem-solving.
+            </p>
+            <div class="buttons">
+              <a class="btn" href="#projects">View Projects</a>
+              <a class="btn ghost" href="#" download>Download Resume</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="container">
+          <h2>About Me</h2>
+          <div class="about-grid">
+            <div class="about-photo">
+              <img src="images/profile.jpg" alt="Profile photo" />
+            </div>
+
+            <div class="about-text">
+              <p>
+                I recently completed an HTML & CSS course in college and enjoy
+                building tidy, responsive web pages. I also program in Java and
+                Python, have basic MySQL skills, and love mathematics and
+                algorithmic problem solving. I’m eager to grow through projects,
+                contribute to real-world builds, and explore freelance design
+                and coding opportunities.
+              </p>
+              <h3>Skills</h3>
+              <ul class="skills">
+                <li>HTML</li>
+                <li>CSS (Flexbox & Grid)</li>
+                <li>Responsive Design</li>
+                <li>Basic JavaScript (learning)</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>Basic MySQL (Learning)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects">
+        <div class="container">
+          <h2>Projects</h2>
+          <div class="projects-grid">
+            <!-- Project card: Portfolio -->
+            <article class="project-card">
+              <img
+                src="images/portfolio_screenshot.png"
+                alt="Project screenshot"
+              />
+              <div class="project-body">
+                <h3>Portfolio Template</h3>
+                <p>
+                  A single-page portfolio template built with semantic HTML and
+                  modern CSS (Flexbox & Grid). It includes a responsive
+                  navigation, hero, about, projects and contact sections,
+                  mobile-first layout, and accessible markup. I designed the
+                  layout, and implemented responsive styles — easy to customize
+                  as a starter for personal sites.
+                </p>
+                <p class="tech">HTML • CSS</p>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/your-username/project2"
+                    target="_blank"
+                    rel="noopener"
+                    >Code</a
+                  >
+                  <a href="#" target="_blank" rel="noopener">Live</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project card: Pricing Table (short) -->
+            <article class="project-card">
+              <img
+                src="images/projects-pricing.png"
+                alt="Pricing Table screenshot"
+              />
+              <div class="project-body">
+                <h3>Responsive Pricing Table</h3>
+                <p>
+                  A clean, responsive pricing table built with semantic HTML and
+                  CSS — includes tier highlights, mobile-friendly layout, and a
+                  monthly/annual toggle.
+                </p>
+                <p class="tech">HTML • CSS</p>
+                <div class="project-links">
+                  <a href="downloads/PricingTable.zip" download rel="noopener"
+                    >Code</a
+                  >
+                  <a href="#" target="_blank" rel="noopener">Live</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project card: Bakery Management System -->
+            <article class="project-card">
+              <div class="project-body">
+                <h3>Bakery Management System</h3>
+                <p>
+                  A full Bakery Management System built with Python and MySQL to
+                  manage inventory, orders and billing. Includes CRUD for items,
+                  order processing and simple reports — designed to simplify
+                  daily bakery operations.
+                </p>
+                <p class="tech">Python • MySQL</p>
+                <div class="project-links">
+                  <a href="downloads/codes.zip" download>Code</a>
+                  <a href="#" target="_blank" rel="noopener">Demo</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container">
+          <h2>Contact</h2>
+          <p>
+            Want to work together or give feedback? Email me at
+            <a href="mailto:hanzala22ert@gmail.com">hanzala22ert@gmail.com</a>
+          </p>
+          <div class="socials">
+            <a
+              href="https://github.com/hanzala-sst"
+              target="_blank"
+              rel="noopener"
+              >GitHub</a
+            >
+            <a
+              href="https://www.linkedin.com/in/hanzala-530574380/"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small>© 2025 Hanzala. Built with ❤️ • HTML & CSS</small>
+      </div>
+    </footer>
+  </body>
+</html>
